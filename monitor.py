@@ -74,7 +74,7 @@ def main():
     except:
         old_hash = ""
 
-    if old_hash and new_hash != old_hash:
+    if True:
         send_email(content)
 
     with open("hash.txt", "w") as f:
